@@ -1,0 +1,60 @@
+<html>
+<head>
+  <title>jQuery.Shapeshift</title>
+  <meta name="description" content="jQuery plugin which creates a column based grid system with drag and drop." />
+  <meta name="keywords" content="jquery,html,grid,column,drag,drop,pinterest">
+ 
+  <!-- Libraries -->
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  
+  <!-- Core Shapeshift Files -->
+  <script type="text/JavaScript" src="js/jquery.ui.touch-punch.min.js"></script>
+  <script type="text/JavaScript" src="js/jquery.shapeshift.js"></script>
+  <link rel="stylesheet" href="css/jquery-ui.css" />
+
+<style>
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.container div {
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.container2 {
+  position: relative;
+  width: 100%;
+}
+
+.container2 div {
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+</style>
+  
+</head>
+<body>
+ <div class="container">
+  <div>Child Element 1</div>
+  <div>Child Element 2</div>
+  <div>Child Element 3</div>
+  <div>Child Element 4</div>
+</div>
+ <div class="container2">
+	<div></div>
+</div>
+ <script>
+	var filter_options = {
+      minColumns: 1
+    };
+	$('.container').shapeshift(filter_options);
+	$('.container2').shapeshift(filter_options);
+ </script>
+  
+</body>
+</html>

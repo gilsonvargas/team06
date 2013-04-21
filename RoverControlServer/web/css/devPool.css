@@ -1,0 +1,117 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.sidebar-nav {
+    padding: 9px 0;
+}
+
+@media (max-width: 980px) {
+    /* Enable use of floated navbar text */
+    .navbar-text.pull-right {
+        float: none;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.container div {
+    height: 100px;
+    position: absolute;
+    width: 100px;
+}
+
+.container2 {
+    position: relative;
+    width: 100%;
+}
+
+.container2 div {
+    height: 100px;
+    position: absolute;
+    width: 100px;
+}
+.pageBackground
+{
+    background-color: #FFFFFF;
+}
+
+.nav-header {
+    color: #999999;
+    display: block;
+    font-size: 20px!important;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 3px 15px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+}
+
+.well {
+    background-color: #E69F91!important;
+    border: 1px solid #E69F91!important;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    margin-bottom: 20px;
+    min-height: 20px;
+    padding: 19px;
+}
+
+.navbar-inverse .brand, .navbar-inverse .nav > li > a {
+    color: #FFFFFF!important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.navbar-inverse .navbar-inner {
+    background-color: #8181F7;
+    background-image: linear-gradient(to bottom, #DF654D, #DF654D)!important;
+    background-repeat: repeat-x;
+    border-color: #DF654D!important;
+}
+
+.hero-unit {
+    background-color: #FDD768!important;
+    border-radius: 6px 6px 6px 6px;
+    margin-bottom: 30px;
+    padding: 60px;
+}
+
+.nav-header {
+    color: #FFFFFF!important;
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 3px 15px;
+   text-shadow: 0 0px 0 rgba(255, 255, 255, 0.5)!important;
+    text-transform: uppercase;
+}
+
+.nav-list > li > a, .nav-list .nav-header {
+    margin-left: -15px;
+    margin-right: -15px;
+    text-shadow: 0 0px 0 rgba(255, 255, 255, 0.5)!important;
+}
+
+.navbar .brand {
+    color: #777777;
+    display: block;
+    float: left;
+    font-size: 38px!important;
+    font-weight: 200;
+    margin-left: -20px;
+    padding: 10px 20px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.icon-4x {
+font-size: 80px!important;
+}
+
+p {
+    margin: 5px 5px 5px!important;
+}
